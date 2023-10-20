@@ -1,0 +1,77 @@
+.container p{
+    text-align: center;
+    font-family: 'Courier New';
+}
+p{
+    /* text-align: left; */
+    /* default text-align is left */
+    /* text-align: right; */
+    text-align:center;
+    font-family:Georgia;
+}
+div h1{
+    background-color: black;
+    color:white;
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+}
+
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    width:200px;
+    height:100px;
+    font-weight:bolder;
+    font-size:16px;
+    margin:25px;
+    text-align: center;
+}
+.dotted{
+    border:15px dotted indigo;
+}
+.dashed{
+    border:15px dashed indigo;
+}
+.solid{
+    border:15px solid indigo;
+}
+.double{
+    border:15px double indigo;
+}
+.groove{
+    border:15px groove indigo;
+}
+.ridge{
+    border:15px ridge indigo;
+}
+.inset{
+    border:15px inset indigo;
+}
+.outset{
+    border:15px outset indigo;
+}
+.lighter{
+    font-weight: lighter;
+    font-size: 20px;
+    font-style:italic;
+    font-style:oblique;
+    color: red;
+}

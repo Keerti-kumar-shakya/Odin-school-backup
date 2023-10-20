@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.box1{
+    border: 1px solid rgb(24, 23, 23);
+    background-color: rgb(223, 147, 85);
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+    top: 60px;
+}
+
+.box2 {
+    border: 1px solid rgb(24, 23, 23);
+    background-color: rgb(241, 150, 12);
+    width: 500px;
+    height: 400px;
+    position: relative;
+     left: 50px;
+     top: 47px;
+}
+
+.box3{
+    border: 1px solid rgb(24, 23, 23);
+    background-color: rgb(164, 180, 125);
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left:50px ;
+    top: 50px;
+}
+
+.box4{
+    border: 1px solid rgb(24, 23, 23);
+background-color:rgb(92, 150, 173) ;
+width: 300px;
+height: 200px;
+position: relative;
+left: 50px;
+top: 50px;
+font-size: 50px;
+font-family: cursive;
+text-align: center;
+padding: 60px;
+}
+
+.log1{
+    border: 1px solid rgb(24, 23, 23);
+    width: 60px;
+    height: 60px;
+    background-color:rgb(92, 150, 173);
+    position: relative;
+left: 970px;
+top: 80px;
+}
+
+
+.log2{
+    border: 1px solid rgb(24, 23, 23);
+    width:60px;
+    height:60px;
+    background-color: rgb(164, 180, 125);
+   position: relative;
+   left:970px;
+   top: 70px;
+}
+
+.log3{
+    border: 1px solid rgb(24, 23, 23);
+    width:60px;
+    height:60px;
+    background-color:rgb(241, 150, 12);
+    position: relative;
+    left:970px;
+    top: 60px;
+
+}
+
+.log4{
+    border: 1px solid rgb(24, 23, 23);
+    width:60px;
+    height:60px;
+    background-color: rgb(223, 147, 85);
+    position: relative;
+    left: 970px;
+    top: 50px;
+
+}
+
+#for1{
+font-size: 20px;
+font-family: cursive;
+position: relative;
+left: 1060px;
+top: 35px;
+
+}
+
+#for2{
+    font-size: 20px;
+    font-family: cursive;
+    position: relative;
+    left: 1060px;
+    top: 22px;
+
+}
+
+#for3{
+    font-size: 20px;
+    font-family: cursive;
+    position: relative;
+    left: 1060px;
+    top: 12px;
+}
+
+#for4{
+    font-size: 20px;
+    font-family: cursive;
+    position: relative;
+    left: 1060px;
+    top: 5px;
+
+}
+
+
+
+
+

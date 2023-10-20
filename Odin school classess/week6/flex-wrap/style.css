@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    background-color: orange;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap-reverse;
+}
+.nowrap{
+    flex-wrap: nowrap;/*default*/
+}
+
+.flex-item{
+    width:150px;
+    height:150px;
+    border: 2px solid black;
+    background-color: orangered;
+}

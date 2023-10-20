@@ -1,0 +1,59 @@
+label[for ="Flipkart"]{color: rgb(28, 137, 180); 
+    font-size: larger; 
+    font-weight: 900;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-shadow: cornflowerblue;
+    padding: 2px;
+    text-align: inherit;
+    cursor: -webkit-grab; cursor: grab;
+    
+}
+
+
+img{ 
+    cursor: -webkit-grab; cursor: grab;
+padding: 0cap;
+}
+
+a{color: rgb(100, 94, 94);
+    text-align: right; 
+    text-decoration: none; 
+    font-size: 20px; 
+    margin-left: 0cap;;
+    }
+
+    .keerti{   position: relative;
+        top: 5px;
+        border: rosybrown;
+        height: 3px;
+        background: black;
+        margin-bottom: 20px;
+        box-shadow:2px 2px 2px  aqua;
+}
+
+.bobby{color: rgb(44, 41, 41); 
+    font-size: 140%; 
+    line-height:0.6;
+    text-indent: 5%;
+    font-weight: 500;
+}
+
+    .log{  display: block; 
+        margin-left: auto; 
+        margin-right: end; margin-top: -30%;
+    }
+
+    .pooja{color: rgb(44, 41, 41); 
+        font-size: 140%; 
+        line-height:4;}
+
+        .about{margin-right:auto; 
+            display: block; 
+            margin-left: auto; 
+            margin-left: 5%;}
+
+            .more{display: block; margin-left: auto; margin-right: auto; margin-left: 30%;}
+
+            .background{background-image: var;}
+
+a:hover{color: aquamarine;}

@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(203, 210, 218);
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.Flex-Justify-Flex-start{
+    border: 2px solid black;
+    background-color: lightcyan;
+width: 1000px;
+height: 400px;
+display: flex;
+justify-content: flex-start;
+}
+
+.box{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+    background-color: bisque;
+}
+
+hr{
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+.main-1{
+    display: flex;
+    justify-content: center;  
+}
+
+.Flex-Justify-Flex-end{
+    border: 2px solid black;
+    background-color: lightcyan;
+width: 1000px;
+height: 400px;
+display: flex;
+justify-content: flex-end;
+
+}
+
+.box1{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 30px; 
+    background-color: bisque;
+}
+
+.main-2{
+    display: flex;
+    justify-content: center;  
+}
+
+.Flex-Justify-Flex-center{
+    border: 2px solid black;
+    background-color: lightcyan;
+width: 1000px;
+height: 400px;
+display: flex;
+justify-content:center;
+
+}
+
+.box2{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 30px; 
+    background-color: bisque;
+}
+
+.main-3{
+    display: flex;
+    justify-content: center;  
+}
+
+.Flex-Justify-Flex-space-between{
+    border: 2px solid black;
+    background-color: lightcyan;
+width: 1000px;
+height: 400px;
+display: flex;
+justify-content:space-between;
+}
+
+.box3{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 30px; 
+    background-color: bisque;
+}
+
+.main-4{
+    display: flex;
+    justify-content: center;    
+}
+
+.Flex-Justify-Flex-space-around{
+    border: 2px solid black;
+    background-color: lightcyan;
+width: 1000px;
+height: 400px;
+display: flex;
+justify-content:space-around;
+}
+
+.box4{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 30px; 
+    background-color: bisque;
+}
+
+.main-5{
+    display: flex;
+    justify-content: center;   
+}
+
+.Flex-Justify-Flex-space-evenly{
+    border: 2px solid black;
+    background-color: lightcyan;
+width: 1000px;
+height: 400px;
+display: flex;
+justify-content:space-evenly; 
+margin-bottom: 30px;
+}
+
+.box5{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 30px; 
+    background-color: bisque;
+}

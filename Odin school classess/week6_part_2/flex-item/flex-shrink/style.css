@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    background-color: darkgray;
+    border: 2px solid black;
+    height:200px;
+    width:500px;
+    margin: 100px;
+}
+.flex-item{
+    background-color: rgb(208, 47, 87);
+    border: 2px solid black;
+    height: 200px;
+    width:200px;
+}
+.shrink-1{
+    flex-shrink:1
+}
+.shrink-2{
+    flex-shrink:2
+}

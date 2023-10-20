@@ -1,0 +1,72 @@
+*{box-sizing: border-box;
+margin: 0px;
+}
+
+.keerti{
+border: none;
+    border: 1px solid rgb(196, 192, 192);
+  padding: 100px;
+width: 500px;
+height: 500px;
+border-radius: 1vh;
+text-align: center;
+margin-left: 40%;
+background-color: antiquewhite;
+margin-top: 10%;
+}
+
+font{ letter-spacing: -0.5vh;}
+
+h2{color: rgb(59, 60, 61);}
+
+input{padding: 10px;
+    border-radius: ;
+    border: thistle  rgb(112, 110, 110);
+    border-radius: 0.3dvh;
+}
+
+p{font-size: large;
+color: rgb(80, 76, 76);
+
+}
+
+label[for="run"]{
+    margin-left: -50%;
+    color: rgb(73, 73, 238);
+    font-weight: 600;
+    font-size: larger;
+}
+
+.bobby{
+
+    margin-left:200px;
+    margin-right: -50%;
+    background-color: rgb(45, 94, 94);
+    font-stretch: 100%;
+    color: rgb(238, 197, 14);
+}
+
+.log{
+    font-size: 700;
+color: rgb(73, 73, 238);
+font-size: larger;
+text-decoration: none;
+}
+
+body{
+
+    background-color: aquamarine;
+}
+
+label[for="email"]{
+    margin-left: 3%;
+
+}
+#top{
+    text-decoration: none;
+    color: rgb(73, 73, 238);
+}
+
+h4{
+    color: rgb(161, 60, 165);
+}

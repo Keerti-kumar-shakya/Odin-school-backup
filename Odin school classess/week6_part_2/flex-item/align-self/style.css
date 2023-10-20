@@ -1,0 +1,32 @@
+.flex-container{
+    display: flex;
+    background-color: lightgrey;
+    border: 2px solid black;
+    height: 350px;
+}
+.flex-item{
+    width:100px;
+    min-height:100px;
+    background-color: goldenrod;
+    border: 2px solid black;
+}
+.stretch{
+    align-self:stretch;
+}
+.flex-start{
+    align-self:flex-start;
+}
+.center{
+    align-self:center;
+}
+.flex-end{
+    align-self:flex-end;
+}
+.baseline{
+    align-self:baseline;
+    
+}
+.flex-container .flex-item:nth-child(3){
+    font-size: 20px;
+}
+

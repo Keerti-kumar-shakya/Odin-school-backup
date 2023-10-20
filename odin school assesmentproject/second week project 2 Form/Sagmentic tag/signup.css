@@ -1,0 +1,45 @@
+body{background-image: url("dna-3539309_1280.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; background-image:light;}
+
+label{color: rgb(234, 238, 15);
+font-size: large;
+}
+
+h1{color: lightcoral; padding: 20px;}
+
+#Button{background-color: floralwhite; padding: 5px;}
+
+#message{background-color: paleturquoise; padding: 20px;}
+
+h2{color: rgb(239, 243, 10); border-block-end: solid rgb(6, 39, 110); padding:10px;}
+
+.keerti{color: rgb(223, 72, 46);}
+
+.ten{color: rgb(8, 245, 87); 
+    font-size: large; 
+    font-weight: 600;
+    font-style: italic;
+    padding: 10px 10px 10px 10px
+}
+Table[border="1"]{border:none; 
+    border-color: rgb(13, 22, 155);
+border-radius: inherit;
+border-inline-color: red;
+border-top: coral;
+}
+
+label[for = "contact"]{color: rgb(8, 245, 87);
+font-size: large;
+font-weight: 600;
+font-style: italic;
+padding: 10px 10px 10px 10px;
+}
+
+#Button{color: rgb(10, 64, 241); font-size: large;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(187, 176, 19);
+}
+
+h2:hover{color: rgb(206, 17, 17);}
+h1:hover{color: rgb(0, 255, 42);}

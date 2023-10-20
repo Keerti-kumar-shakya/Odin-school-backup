@@ -1,0 +1,58 @@
+h1{color: rgb(238, 16, 83); 
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+body{background-image: url("pngtree-blue-hospital-medical-western-medicine-poster-background-picture-image_954226.jpg");}
+
+p{color: rgba(39, 37, 37, 0.932);
+font-size: larger;
+font-family: cursive;
+text-shadow: 1px 1px 1px rgb(166, 182, 26);
+cursor: pointer;
+}
+
+.bobby{
+margin-left: 36%;
+margin-top: 4%;
+cursor: pointer;
+}
+
+#keerti{text-align: center;
+font-size: 250%;
+cursor: pointer;
+color: rgb(24, 160, 214);
+}
+
+.log{font-size: large;
+  font-family: fantasy;
+text-shadow: none;
+color: rgb(101, 110, 66);
+}
+
+#Quality{color: rgb(57, 114, 168);
+font-size: 150%;
+margin-left: 10%;
+}
+.Quality{margin-left:9.5%;}
+
+.log{margin-left: 1.5%;}
+
+#Innovation{color: rgb(121, 60, 131);
+font-size: 150%;
+margin-left: 35%;
+margin-top:-16.2%;
+}
+
+.Innovation{margin-left: 36.5%;
+margin-top: -0.2%;
+}
+
+.log2{
+    font-size: large;
+    font-family: fantasy;
+    text-shadow: none;
+     color: rgb(101, 110, 66);
+     margin-left: 31.5%;}

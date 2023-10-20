@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+    background-color: darkgray;
+    height:200px;
+    border: 2px solid black;
+    margin:50px;
+}
+
+.flex-item{
+    border: 2px solid black;
+    min-width:150px;
+    background-color: red;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+.grow-2{
+    flex-grow: 2;
+}

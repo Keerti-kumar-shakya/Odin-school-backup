@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Grid-template-rows.css">
+  <title>Grid Template Rows</title>
+</head>
+<body>
+  
+  <h1>Grid Template Rows</h1>
+
+  <h2>Different way of given values to Grid Template Rows and only way to show grid-auto-flow: column; are follows.</h2>
+
+  <h3>1.) Grid-Template-Rows: 50px 100px 150px; with grid-auto-flow: column; </h3>
+  <div class="container">
+ <div class="Grid-Template-Rows-1">
+<div class="box">box-1</div>
+<div class="box">box-2</div>
+<div class="box">box-3</div>
+<div class="box">box-4</div>
+<div class="box">box-5</div>
+<div class="box">box-6</div>
+
+ </div>
+
+  </div>
+
+  <hr>
+
+  <h3>2.) Grid-Template-Rows: 1fr 1fr 1fr; with grid-auto-flow: column; </h3>
+  <div class="container">
+ <div class="Grid-Template-Rows-2">
+<div class="box">box-1</div>
+<div class="box">box-2</div>
+<div class="box">box-3</div>
+<div class="box">box-4</div>
+<div class="box">box-5</div>
+<div class="box">box-6</div>
+
+ </div>
+
+  </div>
+
+  <hr>
+
+  <h3>3.) Grid-Template-Rows: repeat(3, 1fr) or repeat(3, 100px); with grid-auto-flow: column; </h3>
+  <div class="container">
+ <div class="Grid-Template-Rows-3">
+<div class="box">box-1</div>
+<div class="box">box-2</div>
+<div class="box">box-3</div>
+<div class="box">box-4</div>
+<div class="box">box-5</div>
+<div class="box">box-6</div>
+
+ </div>
+
+  </div>
+
+  <hr>
+
+  <h3>4.) Grid-Template-Rows: 100px auto 100px; with grid-auto-flow: column; </h3>
+  <div class="container">
+ <div class="Grid-Template-Rows-4">
+<div class="box">box-1</div>
+<div class="box">box-2</div>
+<div class="box">box-3</div>
+<div class="box">box-4</div>
+<div class="box">box-5</div>
+<div class="box">box-6</div>
+
+ </div>
+
+  </div>
+
+  <hr>
+
+  <h3>5.) Grid-Template-Rows: 1fr auto 2fr; with grid-auto-flow: column; </h3>
+  <div class="container">
+ <div class="Grid-Template-Rows-5">
+<div class="box">box-1</div>
+<div class="box">box-2</div>
+<div class="box">box-3</div>
+<div class="box">box-4</div>
+<div class="box">box-5</div>
+<div class="box">box-6</div>
+
+ </div>
+
+  </div>
+
+  <hr>
+
+  <h3>6.) Grid-Template-Rows: repeat(3, auto); or auto auto auto with grid-auto-flow: column; </h3>
+  <div class="container">
+ <div class="Grid-Template-Rows-6">
+<div class="box">box-1</div>
+<div class="box">box-2</div>
+<div class="box">box-3</div>
+<div class="box">box-4</div>
+<div class="box">box-5</div>
+<div class="box">box-6</div>
+
+ </div>
+
+  </div>
+
+  <hr>
+
+  <h3>7.) Grid-Template-Rows: repeat(auto-fill, minmax(200px,1fr)); Or repeat(3, minmax(100px,1fr)); with grid-auto-flow: column; </h3>
+  <div class="container">
+ <div class="Grid-Template-Rows-7">
+<div class="box">box-1</div>
+<div class="box">box-2</div>
+<div class="box">box-3</div>
+<div class="box">box-4</div>
+<div class="box">box-5</div>
+<div class="box">box-6</div>
+
+ </div>
+
+  </div>
+
+  <hr>
+</body>
+</html>

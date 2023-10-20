@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.one{
+border: 1px solid black;
+background-color: bisque;
+text-align: center;
+width: 800px;
+height: 800px;
+position: relative;
+left: 600px;
+top: 80px;
+font-size: larger;
+font-weight: 700;
+}
+
+h1{
+    color: rgb(11, 95, 95);
+    text-align: center;
+    font-size: 300%;
+    background-color: rgb(229, 255, 0);
+}
+
+.two{
+    border: 1px solid black;
+background-color: aquamarine;
+width: 700px;
+height: 700px;
+position: relative;
+left: 50px;
+top: 30px;
+}
+
+.three{
+    border: 1px solid black;
+    background-color: rgb(19, 183, 248);
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left:  50px;
+    top: 30px;
+}
+
+.four{
+    border:1px solid black ;
+    background-color: rgb(176, 247, 105);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    
+}

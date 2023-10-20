@@ -1,0 +1,30 @@
+.page-header{
+    grid-area:nav-header;
+    background-color: gray;
+    padding: 15px;
+    
+}
+.page-body{
+    grid-area:main-body;
+    background-color: rgb(195, 201, 118);
+    padding: 15px;
+    
+}
+.side-bar{
+    grid-area:nav-side-bar;
+    background-color: rgb(128, 189, 120);
+    padding: 15px;
+    
+}
+.page-footer{
+    grid-area:copy-right-footer;
+    background-color: rgb(189, 120, 180);
+    padding: 15px;
+}
+.page{
+    display: grid;
+   
+    grid-template-areas: "nav-header nav-header nav-header nav-side-bar"
+    "main-body main-body . nav-side-bar"
+    "copy-right-footer copy-right-footer copy-right-footer copy-right-footer";
+}

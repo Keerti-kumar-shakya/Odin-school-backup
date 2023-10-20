@@ -1,0 +1,38 @@
+.flex-container{
+    display: flex;
+    background-color: rgb(162, 200, 85);
+    border:1px solid green;
+    padding:30px;
+    margin: 30px;
+}
+
+.flex-start{
+    justify-content: flex-start;/*default*/
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+    padding: 0;
+}
+.space-around{
+    justify-content: space-around;
+    padding: 0;
+}
+.space-evenly{
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.flex-item{
+    width:200px;
+    height:200px;
+    background-color: rgb(68, 203, 64);
+    border: 1px solid black;
+}
+
+

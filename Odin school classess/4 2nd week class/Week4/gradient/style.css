@@ -1,0 +1,36 @@
+body{
+    width:100%;
+    height: 100%;
+}
+.linear{
+    height:500px;
+    width:500px;
+    margin:100px;
+    background-image: linear-gradient(red, orange);
+    background-image: linear-gradient(to bottom, red, orange);
+    background-image: linear-gradient(to right, red, orange);
+    background-image: linear-gradient(to left, red, orange);
+    background-image: linear-gradient(to top, red, orange);
+    background-image: linear-gradient(45deg, green, orange);
+    background-image: linear-gradient(25deg, green, pink);
+    background-image: linear-gradient(to right, red, orange, green, pink);
+    background-image: linear-gradient(to right, red, orange, green, pink);
+    /* background-image: url('https://www.scotsman.com/webimg/b25lY21zOmE1YmU2Yzc1LTJlZjQtNDAzOS04ZjEwLTcwOWZjZDBiOTA4ZDo5NGIwOTI5OC0xZGEwLTQwZjYtOWY2Ni0xZTJkMmVjMzFhZDM=.jpg?crop=3:2,smart&width=640&quality=65&enable=upscale'); */ 
+    /* background-image:url('https://w0.peakpx.com/wallpaper/488/74/HD-wallpaper-deer-with-background-of-tree-and-sunrise-animals.jpg'); 
+    background:linear-gradient(rgb(255,165,0, 0.5), rgba(0,128,0, 0.5)), url('https://w0.peakpx.com/wallpaper/488/74/HD-wallpaper-deer-with-background-of-tree-and-sunrise-animals.jpg') 100% 100%, no-repeat; */
+    
+    background:linear-gradient(rgba(255,0,0,0.5),rgba(0,0,255,0.5)), url('https://w0.peakpx.com/wallpaper/488/74/HD-wallpaper-deer-with-background-of-tree-and-sunrise-animals.jpg') 100% 100%, no-repeat;
+    
+}
+
+.radial{
+    height:500px;
+    width:500px;
+    margin:100px;
+    background-image: radial-gradient(red, green);
+}
+.french{
+    width:500px;
+    height:400px;
+    background-image: linear-gradient(to right, rgb(0,37,81) 33%, rgb(255,255,255) 33%,  rgb(255,255,255) 66%,rgb(199,18,37) 66%);
+}

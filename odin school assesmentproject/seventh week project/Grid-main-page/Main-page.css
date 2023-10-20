@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+background-image: url('backgground-color-2.jpg');
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+background-color: black;
+
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  box-shadow: inset 0 0 25px white;
+}
+
+.main-page{
+  display: flex;
+  justify-content: center;
+margin-top: 70px;
+}
+
+.Container{
+  background-image: url('main-container-img.avif');
+
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid black;
+  width: 700px;
+  height: 700px;
+border-radius: 0.5rem;
+}
+
+.Container:hover{
+  box-shadow: inset 0 0 20px gold, 0 0 20px lightcyan;
+  transition: 0.15s;
+}
+
+h3{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+color: white;
+  font-size: 40px;
+  text-decoration: underline;
+text-shadow:  0 0 10px lightgoldenrodyellow, 0 0 10px lightsalmon,0 0 10px blue ;
+border-top-left-radius: 0.5rem;
+border-top-right-radius:0.5rem ;
+}
+
+h4{
+  margin-top: 20px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+color: white;
+  font-size: 40px; 
+  text-shadow:  0 0 10px lightgoldenrodyellow, 0 0 10px lightsalmon,0 0 10px blue ;
+  text-decoration: underline;
+
+}
+
+p{
+
+  display: inline;
+  text-shadow: 0 0 25px white,  0 0 25px red, 0 0 25px yellow;
+}
+
+ol{
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: beige;
+  
+}
+
+a:hover{
+  font-size: 35px;
+  transition: 0.15s;
+  text-shadow: 0 0 10px lightsalmon,0 0 10px lightblue  ;
+}
+
+li{
+  padding-bottom:10px ;
+}

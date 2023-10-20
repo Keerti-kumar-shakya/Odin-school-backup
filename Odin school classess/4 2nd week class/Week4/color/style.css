@@ -1,0 +1,68 @@
+body{
+    background-image: url('./sunrise.jpeg');
+}
+/*rgb(r,g,b);
+r - 0-255
+g - 0-255
+b - 0-255
+*/
+.rgb{
+    width:350px;
+    padding:15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    height:350px;
+    color:rgb(255,255,255);
+    background-color:rgb(0,0,0);
+    border:1px solid rgb(0,190,91)
+}
+/*
+rgba(red,green,blue,alpha)
+        alpha is opacity (transparency)
+        opacity ranges from 0-1
+*/
+.rgb2{
+    background-color: rgba(80,100, 9);
+    text-decoration: underline;
+}
+.rgba{
+    background-color: rgba(220,59, 125, 0.4);
+    background-color: rgba(220,59, 125, 0);
+    background-color: rgba(220,59, 125, 1);
+    background-color: rgba(220,59, 125, 0.6);
+    text-decoration:dotted;
+    /*opacity: 0;*/
+    letter-spacing: 5px;
+    word-spacing: 6px;
+    
+
+}
+/* #6 place
+color: #RRGGBB;
+each place ranges from 0-9A-F
+color:#99ce9d
+
+*/
+.hex{
+    color:#000;
+    color:#FFF;
+    color:#000000;
+    color:#FFFFFF;
+    background-color: #9f7a9d;
+
+}
+
+h1:first-letter{
+    color:red;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+}
+
+p:first-line{
+    color:greenyellow;
+
+}

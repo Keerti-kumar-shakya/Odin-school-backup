@@ -1,0 +1,145 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightcyan;
+}
+
+h1{
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  padding: 20px;
+  text-shadow: 2px 3px 5px red,2px 3px 5px white,2px 3px 5px blue, 5px 10px 15px orange;
+  position: sticky;
+  top: 0px;
+}
+
+h2{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+h3{
+  text-align: center;
+  font-size: 25px;
+  color: lightseagreen;
+}
+
+hr{
+  margin-top: 40px;
+  border: 3px solid black;
+  margin-bottom: 40px;
+
+}
+
+
+.container{
+  display: grid;
+  justify-content: center;
+ margin-top: 50px;
+ 
+}
+
+.Grid-Template-Columns-Rows-1{
+  background-color: beige;
+
+  border: 1px solid black;
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-rows:150px 200px 250px;
+  grid-template-columns:200px 250px 300px;
+row-gap: 10px;
+column-gap: 10px;
+ 
+}
+
+.box{
+  background-color: darkgray;
+  border: 1px solid black;
+}
+
+.Grid-Template-Columns-Rows-2{
+  background-color: beige;
+
+  border: 1px solid black;
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-rows:1fr 1fr 1fr;
+grid-template-columns: 2fr 3fr 4fr ;
+  row-gap: 10px;
+  column-gap: 10px;
+ 
+}
+
+.Grid-Template-Columns-Rows-3{
+  background-color: beige;
+
+  border: 1px solid black;
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-rows:repeat(3, 1fr);
+  grid-template-columns:repeat(3, 250px);
+  column-gap: 10px;
+ row-gap: 10px;
+ 
+}
+
+.Grid-Template-Columns-Rows-4{
+  background-color: beige;
+
+  border: 1px solid black;
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-rows:100px auto 100px;
+  grid-template-columns:200px auto 200px;
+  column-gap:10px;
+  row-gap:10px;
+}
+
+.Grid-Template-Columns-Rows-5{
+  background-color: beige;
+
+  border: 1px solid black;
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-rows:1fr auto 2fr;
+  grid-template-columns:3fr auto 4fr;
+ column-gap: 10px;
+  row-gap: 10px;
+}
+
+.Grid-Template-Columns-Rows-6{
+  background-color: beige;
+  border: 1px solid black;
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-rows:repeat(3,auto);
+  grid-template-columns:auto auto auto;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.Grid-Template-Columns-Rows-7{
+  background-color: beige;
+  border: 1px solid black;
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-rows: repeat(3, minmax(240px,1fr));
+  grid-template-columns: repeat(3, minmax(100px,1fr));
+  column-gap: 10px;
+  row-gap: 10px;
+}

@@ -1,0 +1,20 @@
+.container{
+    width:900px;
+}
+.left-column{
+    float: left;
+    width:50%;
+    height:500px;
+    background-color: powderblue;
+    /* clear:left; */
+}
+.right-column{
+    float: right;
+    width:50%;
+    height:500px;
+    background-color: lightgreen;
+    /* clear:both; */
+}
+.clear{
+    clear:left;
+}

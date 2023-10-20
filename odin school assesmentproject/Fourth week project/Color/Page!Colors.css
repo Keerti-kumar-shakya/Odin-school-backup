@@ -1,0 +1,425 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(219, 185, 140, 0.644);
+}
+
+h1{
+    border: 0px solid black;
+    background-color: rgb(42, 48, 47);
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+.main1{
+    border: 0px solid black;
+    background-color: rgba(28, 223, 223, 0.555);
+    width: 100%;
+    height: 500px;
+ 
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.box{
+border: 0px solid black;
+width: 600px;
+height: 400px;
+position: relative;
+right: 280PX;
+top: 80px;
+}
+
+h2{
+position: relative;
+left: 540px;
+padding: 20px;
+padding: 20px;
+font-size: 30px;
+color:#FF4500	;
+}
+
+h3{
+    position: relative;
+    left: 930px;
+    top: 20px;
+    font-size: 30px;
+    color: #FF4500	;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+font-size: 50px;
+gap: 20px;
+background-color: white;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.orange{
+    color: orange;
+}
+
+#box2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.bg{
+border: 0px solid white;
+width: 100%;
+height: 100px;
+padding: 25px;
+color: rgba(0, 0, 0, 0.801);
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+#orange{
+    background-color: orange;
+}
+
+hr{
+    border: 2px solid #272525;
+
+}
+
+h4{
+    border: 0px solid beige;
+    width: 100%;
+    height: 100px;
+    background-color: lightslategray;
+    text-align: center  ;
+    color: white;
+padding: 30px;
+font-size: 30px;
+}
+
+.second-bg{
+    background-color: lightpink; 
+}
+
+.color-properties{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: #1E90FF;
+    padding: 30px;
+}
+
+.second-box{
+    border: 0px solid black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+gap: 100px;
+}
+
+.box0{
+    border: 0px solid black ;
+    width: 500px;
+    height: 400px;
+    background-color: beige;
+}
+
+.page{
+text-align: center;
+position: relative;
+top: 30px;
+font-size: 30px;
+color: rgba(0, 0, 0, 0.808);
+}
+
+p{
+    position: relative;
+    top: 100px;
+    text-align: justify;
+    line-height: 2.5vh;
+    font-size: 20px;
+    color: #b241df;
+}
+
+.image-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 40px;
+}
+
+.image-write{
+    background-color: lightgrey;
+    border: 1px solid black;
+width: 502px;
+height: 100px;
+padding: 20px;
+font-size: 30px;
+text-align: center;
+}
+
+.image1{
+width: 500px;
+height: 400px;
+    object-fit: contain;
+}
+
+.image2{
+    width: 500px;
+height: 400px;
+    object-fit: cover;
+}
+
+.image3{
+    width: 500px;
+    height: 400px;
+        object-fit: fill;
+}
+
+
+
+.bg2{
+
+border: 0px solid black;
+width: 100%;
+height: 680px;
+background-color: rgba(245, 245, 18, 0.432);
+    
+}
+
+.background-image{
+    border: 0px solid black;
+    background-color: rgb(79, 174, 233);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.bg-image{
+display: flex;
+justify-content: center;
+gap: 100px;
+position: relative;
+top: 40px;
+}
+
+.box00{
+    border: 1px solid black;
+    width: 502px;
+    height: 400px;
+}
+
+.text-bg{
+    border: 0px solid beige;
+    background-color: rgb(158, 128, 94);
+    width: 100%;
+    height: 500px;
+}
+
+.text-transform-contain{
+    border: 0px solid beige;
+background-color: rgb(194, 87, 44);
+width: 100%;
+height: 100px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.text-write{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 65px;
+}
+
+#text{
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    background-color: rgb(119, 196, 119);
+}
+
+.text-transform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    top: 20px;
+}
+
+.text-0{
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+    background-color: rgb(131, 138, 131); 
+    position: relative;
+    top: 20px;
+}
+
+#box0001{
+    display: flex;
+flex-direction: column;
+gap: 8px;
+padding:20px;
+}
+
+.text-cap{
+    text-transform: capitalize;
+}
+
+#text-letter1::first-letter{
+color: red;
+}
+
+#text-letter2::first-letter{
+    color: green;
+}
+
+#text-letter3::first-letter{
+    color: blue;
+}
+
+#text-letter4::first-letter{
+    color: yellow;
+}
+
+#box0002{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+.text-case{
+    text-transform: lowercase;
+}
+
+#box0003{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+.text-uc{
+    text-transform: uppercase;
+   
+}
+
+.decoration-bg{
+    background-color: rgb(165, 115, 117);
+    width: 100% ;
+    height: 700px;
+}
+
+.decoration-text{
+    background-color: #8a3fcf;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.decoration-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 110px;
+    position: relative;
+    top: 60px;  
+}
+
+.text-td{
+    border: 1px solid black;
+    background-color: lightgoldenrodyellow;
+    width: 300px;
+    height: 200px;
+    font-size: 40px;
+text-align: center;
+padding: 70px;}
+
+#text-deco1{
+    text-decoration:dashed overline;
+}
+
+#text-deco2{
+    text-decoration: dotted underline;
+}
+
+#text-deco3{
+text-decoration: solid overline underline;
+}
+
+#text-deco4{
+    text-decoration: line-through;
+}
+
+#text-deco5{
+    text-decoration: double overline;
+}
+
+#text-deco6{
+    text-decoration: overline;
+}
+
+#text-deco7{
+    text-decoration: underline;
+}
+
+#text-deco8{
+    text-decoration: wavy underline overline;
+}

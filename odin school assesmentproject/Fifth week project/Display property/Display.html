@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Display.css">
+    <title>Display properties</title>
+</head>
+<body>
+    <h1>Display properties</h1>
+    <p class="para1">Types of display properties in CSS</p>
+    <div class="main">
+<div class="box box-1">Block
+    <p>A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</p>
+</div>
+<div class="box box-2">Inline
+    <p>An inline element does not start on a new line and only takes up as much width as necessary. <b>It won't apply width, height and margin.</b></p>
+</div>
+<div class="box box-3">Inline-block
+    <p>Compared to display: inline , the major difference is that display: inline-block allows to set a width and height on the element. Also, with display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not.</p>
+</div>
+<div class="box box-4">Flexbox
+    <p>The flexible box layout module, usually referred to as flexbox, was designed as a <b>one-dimensional</b> layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities.</p>
+</div>
+<div class="box box-5">Grid
+    <p>The CSS Grid Layout Module makes browsers display the selected HTML elements as grid box models. Grid allows you to easily resize and reposition a grid container and its items <b>two-dimensionally.</b></p>
+</div>
+<div class="box box-6">List-Item
+    <p>The list-item keyword causes the element to <b>generate a ::marker pseudo-element</b> with the content specified by its list-style properties (for example a bullet point) together with a principal box of the specified type for its own contents.</p>
+</div>
+<div class="box box-7">Table
+    <p>The CSS display: table property transforms an element into a table element. It allows you to use CSS to style a regular HTML element, such as a div , to behave like a table element.</p>
+</div>
+</div>
+<br><br>
+<hr>
+
+<h2>How Display properties works</h2>
+<label>1.) block Element</label>
+<div id="box0" class="box-block">Box-1</div>
+<div id="box1" class="box-block">Box-2</div>
+<div id="box2" class="box-block">Box-3</div>
+
+<label>2.) Inline Element</label>
+
+<div class="inline">
+<span class="Box-inline box-01">Box-1 Inline Element</span>
+<span class="Box-inline box-02">Box-2 Inline Element</span>
+<span class="Box-inline box-03">Box-3 Inline Element</span>
+</div>
+
+<label>2.) Inline-block Element</label>
+<div class="box-inline-block box001">Box-1</div>
+<div class="box-inline-block box002">Box-2</div>
+<div class="box-inline-block box003">Box-3</div>
+</body>
+</html>

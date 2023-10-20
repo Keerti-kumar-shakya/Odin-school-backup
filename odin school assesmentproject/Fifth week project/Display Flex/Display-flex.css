@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightsteelblue;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    padding: 20px;
+}
+
+p{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: azure;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+hr{
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+.flex-direction-row{
+    display: flex;
+    flex-direction:row;
+  
+}
+
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 61px;
+}
+
+.flex-direction-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box01{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 61px;
+}
+
+.flex-direction-coloum{
+    display: flex;
+    flex-direction: column;
+}
+
+.box02{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 61px;
+}
+
+.flex-direction-coloum-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box03{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 61px; 
+
+}

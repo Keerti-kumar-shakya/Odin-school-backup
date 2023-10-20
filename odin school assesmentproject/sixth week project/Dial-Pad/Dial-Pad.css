@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:black;
+}
+
+h1{
+  background-color: hsla(39, 34%, 38%, 0.5);
+  color: rgb(36, 34, 34);
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+
+h1:hover{
+  box-shadow: 0 0 35px white;
+}
+
+h1:before{
+  position: absolute;
+  inset: 2px;
+  background-color: rgb(48, 15, 15);
+  }
+
+p{display: inline-block;
+  background-color: black;
+  color: #fff;
+  border-radius: 1.5rem;
+  width: 200px;
+  border: 3px solid white;
+}
+
+p:hover{
+  box-shadow: 0 0 35px var(--clr, #1e9bff);
+  color:var(--clr, #1e9bff);
+ transition: 0.20s;
+}
+
+p:before{
+position: absolute;
+inset: 2px;
+background-color: rgb(48, 15, 15);
+}
+
+.main-dial{
+display: flex;
+justify-content:center;
+align-items: center;
+min-width: 900px;
+min-height: 800px;
+}
+
+.dialpad{
+  border: 5px solid white;
+  width: 350px;
+  height: 670px;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-dial{
+  width: 350px;
+  height: 400px;
+ display: flex;
+ flex-flow: column wrap;
+ align-content:center;
+ justify-content: center;
+gap: 15px;
+ 
+}
+
+.dialpad:hover{
+box-shadow: 0 0 35px var(--clr, #ff1667);
+transition: 0.15s;
+}
+
+.box{
+  margin-bottom: 4px;
+  border: 2px solid white;
+  width: 69px;
+  height: 69px;
+  justify-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+font-size: 30px;
+padding-left: 5px;
+padding-top: 5px;
+border-radius: 2.5rem;
+}
+
+.box1{
+  border: 1px solid white;
+  width: 340px;
+  height: 280px;
+  border-top-left-radius: 2.6rem;
+  border-top-right-radius: 2.6rem;
+  background-color: #d4cccc;
+
+}
+
+.box:hover{
+  box-shadow: 0 0 35px var(--clr, rgb(202, 185, 88));
+  transition: 0.15s;
+}
+
+.para{
+  font-size: 12px;
+  padding-left: 10px !important;
+}
+
+.main-lower-key{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.number{
+  font-size: 30px;
+padding-left: 20px;
+padding-top: 6px;
+}
+
+.para1{
+  padding-top: 8px;
+  padding-left: 5px;
+}

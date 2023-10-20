@@ -1,0 +1,28 @@
+.container{
+    width:200px;
+    height: 200px;
+    padding:20px;
+    border:2px solid rgb(71, 5, 5);
+    background-color: lightcoral;
+}
+.box-sizing-border-box{
+    width:200px;
+    height: 200px;
+    padding:20px;
+    border:2px solid rgb(71, 5, 5);
+    background-color: lightcoral;
+    box-sizing: border-box; /* width = (content + padding + border)*/
+}
+.box-sizing-content-box{
+    width:200px;
+    height: 200px;
+    padding:20px;
+    border:2px solid rgb(71, 5, 5);
+    background-color: lightcoral;
+    box-sizing: content-box;/*default*/ /*  total width  of an element is excluding  padding , border*/
+}
+
+/*
+box-sizing: content-box; default
+box-sizing: border-box;
+*/

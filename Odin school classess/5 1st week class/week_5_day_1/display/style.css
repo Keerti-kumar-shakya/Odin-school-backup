@@ -1,0 +1,17 @@
+.block{
+    display:block;
+}
+.inline{
+    display:inline;
+}
+.inline-block{
+    display: inline-block;
+}
+
+div{
+    border:2px solid green;
+}
+span{
+    border:2px solid red;
+
+}

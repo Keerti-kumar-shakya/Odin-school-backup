@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightyellow;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+hr{
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+}
+
+.stretch-item{
+    border: 2px solid black;
+    background-color: white;
+ width: 900px;
+ height: 400px;
+ display: flex;
+ align-items: stretch;
+}
+
+.Box{
+    border: 1px solid black;
+    background-color: darksalmon;
+    width: 250px;
+    font-size: 30px;
+}
+
+
+.box-2{
+    height: 200px;
+}
+
+.box-3{
+    height:300px;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-start-item{
+    border: 2px solid black;
+    background-color: white;
+ width: 900px;
+ height: 400px;
+ display: flex;
+ align-items: flex-start;
+}
+
+.Box1{
+    border: 1px solid black;
+    background-color: darksalmon;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-end-item{
+    border: 2px solid black;
+    background-color: white;
+ width: 900px;
+ height: 400px;
+ display: flex;
+ align-items: flex-end;
+}
+
+.Box2{
+    border: 1px solid black;
+    background-color: darksalmon;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+
+}
+
+.main4{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center-item{
+    border: 2px solid black;
+    background-color: white;
+ width: 900px;
+ height: 400px;
+ display: flex;
+ align-items: center;
+}
+
+.Box3{
+    border: 1px solid black;
+    background-color: darksalmon;
+    width: 150px;
+    height: 150px;
+    font-size: 30px;
+
+}
+
+.main5{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-baseline-item{
+    border: 2px solid black;
+    background-color: white;
+ width: 900px;
+ height: 400px;
+ display: flex;
+ align-items: baseline;
+ margin-bottom: 30px;
+
+}
+
+.Box4{
+    border: 1px solid black;
+    background-color: darksalmon;
+}
+
+.box-00001{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.box-00002{
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+.box-00003{
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+.box-00004{
+    font-size: 120px;
+    text-decoration: underline;
+}

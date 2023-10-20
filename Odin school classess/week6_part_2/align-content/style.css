@@ -1,0 +1,35 @@
+.flex-container{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: cadetblue;
+    border: 2px solid rgb(11, 13, 11);
+    width:600px;
+    height:600px;
+    margin:100px;
+}
+
+.flex-item{
+    width:100px;
+    height: 100px;
+    background-color: darkgreen;
+    border: 2px solid rgb(11, 13, 11);
+}
+.stretch{
+    align-content: stretch;/*default*/
+}
+
+.flex-start{
+    align-content: flex-start;
+}
+.flex-end{
+    align-content: flex-end;
+}
+.center{
+    align-content: center;
+}
+.space-around{
+    align-content: space-around;
+}
+.space-between{
+    align-content: space-between;
+}
